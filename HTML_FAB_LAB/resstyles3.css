@@ -1,0 +1,454 @@
+
+/* heading fonts */
+@import url('https://fonts.googleapis.com/css?family=Exo:800|Fredoka+One|Kanit:700|Maven+Pro:900|Roboto:900|Signika+Negative:700|Simonetta:900|Timmana&display=swap');
+
+/*
+font-family: 'Kanit', sans-serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Timmana', sans-serif;
+font-family: 'Simonetta', cursive;
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Abel|BenchNine|Dosis|Heebo|Yanone+Kaffeesatz&display=swap');
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'BenchNine', sans-serif;
+*/
+body{
+	width: 12.75in;
+	height: 1625px;
+	margin:0;
+	padding:0;
+}
+
+.col {
+	margin:0;
+	padding:0;
+	/* border: 1px red solid; */
+}
+
+/* col 1 part */
+#c1 {
+	float:left;
+	width: 71.0%;  /* 70 - 6 = 74 */
+	height: 100%;
+	margin:0;
+	padding: 0;
+	/*padding-left: 4%; */
+	padding-right: 1%;
+	padding-top: 0.5%;
+	
+
+}
+
+#obj_div {
+	padding-top: 0%;
+	margin:0;
+	font-size: 16pt;
+	padding-bottom: 0.5%;
+}
+
+#obj_span{
+
+}
+
+.bold_it{
+	font-weight: bold;	
+	font-size: 18pt;
+}
+
+
+
+.ed_date{
+	font-weight: bolder;
+	font-size:14pt;
+}
+
+.lineboxes {
+	margin-top:1%;
+	margin-bottom:0.5%;
+	width:100%;
+	height: 35px;
+	/* border: 2px dodgerblue solid; */
+}
+
+/* col 2 part */
+
+
+
+
+#w_history{
+	font-size: 18pt;
+	color: #05056b;
+
+}
+
+#education{
+	font-size: 18pt;
+	color: #05056b;
+
+}
+
+hr{
+	margin: 0;
+	padding: 0;
+}
+
+
+#c2{
+	margin:0;
+	padding:0;
+	float:left;
+	width: 24%;
+	height: 100%;
+	color:white;
+	background-color:#05386b;
+	font-size: 36pt;
+	padding-left: 0%;
+}
+
+#work_stuff {
+	width:100%;
+	height: 1180px;
+	/* border 4px black dashed; */
+}
+
+/* to organize c2
+name
+holder
+have to be margin-left: 1%;
+*/
+
+
+
+.hfont {
+	/* try 1 */
+	/* font-family: 'Kanit', sans-serif; */
+	/* try 2 */
+	font-family: 'Exo', sans-serif;
+
+}
+
+.darkback{
+	width: 96%;
+	background-color: #05056b;
+	font-size: 18pt;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+#name{
+	margin:0;
+	padding:0;
+	font-size: 32;
+	line-height: 30pt;
+	padding-top:2%;
+	padding-bottom: 2%;
+	padding-left: 4%;
+}
+
+.tenpt{
+	font-size: 12pt;
+}
+
+.ten5pt{
+	font-size: 13pt;
+}
+
+.elevpt{
+	/* font-size: 14pt; */
+	font-size: 13.0pt;
+}
+
+.twelvept{
+	font-size: 14pt;
+}
+
+.jobtitle{
+	display:block;
+	margin-top: 5%;
+	font-size: 14pt;
+	font-style: italic;
+	/* color: darkgray; */
+	color: #6e6d6d;
+}
+
+.jobtitle2{
+	display:block;
+	margin-top: 1%;
+	font-size: 12pt;
+	font-style: italic;
+	/* color: darkgrey; */
+	color: #6e6d6d;
+}
+
+.textf{
+	/* try 1 */
+	/* font-family: 'BenchNine', sans-serif; */
+	/* try 2 */
+	/* font-family: 'Yanone Kaffeesatz', sans-serif; */
+	/* try 3 */
+	font-family: 'Dosis', sans-serif;
+
+}
+
+.holder {
+	margin:0;
+	padding: 0;
+	padding-left: 4%;
+}
+
+.ptop {
+	padding-top: 2%;
+}
+
+
+.ptop2 {
+	padding-top: 1%;
+}
+
+.ptop3 {
+	padding-top: 0.5%;
+}
+
+.pbottom {
+	padding-bottom: 1%;
+}
+
+.mtop {
+	margin-top: 3%;
+}
+
+.mbottom {
+	margin-bottom: 3%;
+}
+.ul_top {
+	margin-top:0;
+	padding-top:0;
+}
+
+.ul_bot {
+	margin-bottom:0;
+	padding-bottom:0;
+}
+.floatleft {
+	float: left;
+}
+.workdate{
+	/* width:16%; */
+	width: 136px;
+	/* border: 1px red solid; */
+	margin:0;
+	padding:0;
+	padding-top:1%;
+	margin-right:15px;
+}
+.workdetails{
+	/* width:83%; */
+	width: 705px;
+	/* border: 1px red solid; */
+
+}
+
+.floatnone{
+	float: none;
+}
+.ul_no {
+	padding-left: 30px;
+}
+
+/* special to make bounding boxes match */
+#objUnit{
+	width: 100%;
+	height: 58px;
+	/* border: 1px green solid; */
+	margin:0;
+	padding:0;
+
+}
+#objectiveBox {
+	height: 55px;
+	margin:0;
+	padding:0;
+	/* border: 1px yellow solid; */
+
+}
+
+#stmarksunit{
+	width: 100%;
+	height: 375px;
+	/* border: 1px green solid; */
+	margin:0;
+	padding:0;
+}
+#stmdetails{
+	height: 335px;
+	margin:0;
+	padding:0;
+	/* border: 1px yellow solid; */
+}
+
+#coderschool{
+	width: 100%;
+	height: 115px;
+	/* border: 1px green solid; */
+	margin:0;
+	padding:0;
+
+}
+#coderdetails{
+	height: 80px;
+	margin:0;
+	padding:0;
+	/* border: 1px yellow solid; */
+	
+}
+
+#i2camp{
+	width: 100%;
+	height: 120px;
+	/* border: 1px green solid; */
+	margin:0;
+	padding:0;
+
+}
+#i2details{
+	height: 75px;
+	margin:0;
+	padding:0;
+	/* border: 1px yellow solid; */
+}
+
+#pearlCohen{
+	width: 100%;
+	height: 95px;
+	 /* border: 1px green solid; */
+	margin:0;
+	padding:0;
+
+}
+#pczldetails{
+	height: 65px;
+	margin:0;
+	padding:0;
+	/*border: 1px yellow solid; */
+
+}
+#freelance {
+	width: 100%;
+	height: 70px;
+	/*border: 1px green solid; */
+	margin:0;
+	padding:0;
+
+}
+#freedetails{
+	height: 40px;
+	margin:0;
+	padding:0;
+	/*border: 1px yellow solid; */
+
+}
+
+#saintanns{
+	width: 100%;
+	height: 70px;
+	/*border: 1px green solid; */
+	margin:0;
+	padding:0;
+
+}
+#stannsdetails{
+	height: 40px;
+	margin:0;
+	padding:0;
+	/*border: 1px yellow solid; */
+}
+
+#fttech{
+	width: 100%;
+	height: 60px;
+	/*border: 1px green solid; */
+	margin:0;
+	padding:0;
+}
+#ftdetails{
+	height: 25px;
+	margin:0;
+	padding:0;
+	/*border: 1px yellow solid; */
+}
+
+#kenyon{
+	width: 100%;
+	height: 95px;
+	/*border: 1px green solid; */
+	margin:0;
+	padding:0;
+
+}
+#kenyondetails{
+	height: 65px;
+	margin:0;
+	padding:0;
+	/*border: 1px yellow solid; */
+
+}
+
+
+
+
+#vetter {
+	width: 100%;
+	height: 60px;
+	/*border: 1px green solid;*/
+	margin:0;
+	padding:0;
+}
+#vetterdetails{
+	height: 20px;
+	margin:0;
+	padding:0;
+	/*border: 1px yellow solid;*/
+}
+
+#clifford{
+	width: 100%;
+	height: 60px;
+	/*border: 1px green solid;*/
+	margin:0;
+	padding:0;
+}
+
+#clifforddetails{
+	height: 25px;
+	margin:0;
+	padding:0;
+	/*border: 1px yellow solid;*/
+}
+
+
+#ed_stuff{
+	margin-top:0;
+	padding-top:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
